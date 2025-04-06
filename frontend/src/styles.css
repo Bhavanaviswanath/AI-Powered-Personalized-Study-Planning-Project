@@ -1,0 +1,61 @@
+/* Full Page Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: #add8e6; /* Light Blue */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Centered Login Container */
+  .login-container {
+    width: 400px;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Increased Image Size */
+  .gif-container img {
+    width: 200px; /* Increased size */
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  
+  /* Input Fields */
+  .login-container input {
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Login Button */
+  .login-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #0073e6; /* Blue */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.3s ease;
+  }
+  
+  .login-container button:hover {
+    background-color: #005bb5;
+    transform: scale(1.05);
+  }

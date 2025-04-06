@@ -1,0 +1,65 @@
+/* ====== Global Styles ====== */
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  /* ====== Dashboard Styles ====== */
+  .dashboard-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    background: #f9f9f9;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* ====== Subject Input Styles ====== */
+  .subject-input {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+  }
+  
+  .subject-input input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .subject-input button {
+    background: #4CAF50;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* ====== Timer Styles ====== */
+  .timer-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .timer-container button {
+    margin: 5px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #007BFF;
+    color: white;
+  }
+  
+  /* ====== Chart Container ====== */
+  .chart-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }

@@ -1,0 +1,752 @@
+/* Profile Page Styles */
+.profile-page {
+    background-color: #cce7ff; /* Light blue background */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Profile Container */
+  .profile-container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 350px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* AI Avatar */
+  .profile-pic-large {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 4px solid #0056b3;
+    margin-bottom: 15px;
+  }
+  
+  /* Profile Info */
+  .profile-info {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-username {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .profile-email {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  /* Input Field */
+  .password-input {
+    width: 90%;
+    padding: 12px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Buttons */
+  .change-password-btn, .logout-btn {
+    width: 90%;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .change-password-btn {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+  }
+  
+  .logout-btn {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+  }
+  
+  .change-password-btn:hover {
+    background-color: #004494;
+  }
+  
+  .logout-btn:hover {
+    background-color: #c9302c;
+  }
+  
+  
+  /* Light Blue Background */
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #b3d9ff; /* Light Blue */
+  }
+  
+  /* Centered Login Box */
+  .login-box {
+    background: white;
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 380px; /* Slightly wider */
+  }
+  
+  /* Larger Profile Image */
+  .login-image {
+    width: 140px; /* Increased Size */
+    height: 140px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    object-fit: cover;
+  }
+  
+  /* Styled Input Fields & Button */
+  .login-box input,
+  .login-box button {
+    width: 92%; /* Ensures All Are Same Width */
+    padding: 12px;
+    margin: 10px 0;
+    border: 1.5px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: border 0.3s ease-in-out;
+  }
+  
+  .login-box input:focus {
+    border: 1.5px solid #007bff;
+  }
+  
+  /* Login Button */
+  .login-box button {
+    background: #007bff;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out, transform 0.1s ease-in-out;
+  }
+  
+  .login-box button:hover {
+    background: #0056b3;
+    transform: scale(1.02);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 400px) {
+    .login-box {
+      width: 90%;
+    }
+  }
+  /* Global Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: #f4f7fc;
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  /* Navigation Bar */
+  .navbar {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 15px;
+    background-color: #007bff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .navbar a:hover {
+    color: #f1f1f1;
+    transform: scale(1.1);
+  }
+  
+  /* Animated Heading */
+  .welcome-text {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 50px;
+    animation: slideIn 1.2s ease-in-out;
+  }
+  
+  /* Subtext */
+  .subtext {
+    font-size: 18px;
+    color: #666;
+    margin-top: 10px;
+  }
+  
+  /* Key Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideIn {
+    from {
+      transform: translateY(-20px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  /* Home Container */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    color: black;
+  }
+  
+  /* Resize Image */
+  .home-banner {
+    width: 50%; /* Adjust the percentage to control size */
+    max-width: 400px; /* Ensure it does not become too large */
+    height: auto;
+    border-radius: 10px; /* Optional: Rounded corners */
+    margin: 20px 0; /* Spacing */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Soft Shadow */
+  }
+  
+  /* Welcome Text */
+  .welcome-text {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+  
+  /* Motivation Quote */
+  .motivation {
+    font-size: 1.2rem;
+    font-style: italic;
+    margin-top: 10px;
+  }.dashboard-container {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .large-input {
+    padding: 8px;
+    font-size: 16px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .large-button {
+    padding: 8px;
+    font-size: 16px;
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .large-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .subject-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .subject-item {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+  
+  .generate-plan-btn {
+    margin-top: 20px;
+    background-color: #28a745;
+  }
+  
+  .generate-plan-btn:hover {
+    background-color: #218838;
+  }
+  .study-plan-title {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .study-plan-container {
+    background-color: #f0f8ff; /* Light blue background */
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  .study-plan-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .study-plan-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .study-plan-item {
+    background-color: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    font-size: 16px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .motivational-quote {
+    font-size: 14px;
+    color: #333;
+    font-style: italic;
+    margin-top: 5px;
+  }
+  
+  .motivational-quote {
+    font-size: 14px;
+    color: #333;
+    font-style: italic;
+    margin-top: 5px;
+  }
+  .leaderboard-container {
+    background-color: #f0f8ff; /* Light blue background */
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  .leaderboard-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .user-name {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .leaderboard-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .leaderboard-item {
+    background-color: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    font-size: 16px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .motivational-quote {
+    font-size: 14px;
+    color: #333;
+    font-style: italic;
+    margin-top: 5px;
+  }
+  .rewards-container {
+    background-color: #f0f8ff;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  .rewards-title {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .rewards-section, .penalties-section {
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+  
+  .rewards-list, .penalties-list {
+    list-style-type: none;
+    padding: 0;
+    font-size: 18px;
+  }
+  
+  .rewards-list li, .penalties-list li {
+    background-color: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .motivation-title {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 30px;
+  }
+  
+  .motivation-quote {
+    font-size: 18px;
+    text-align: center;
+    font-style: italic;
+    color: #333;
+  }.rewards-container {
+    background-color: #d9f1ff; /* Light blue background */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .rewards-title,
+  .rewards-heading,
+  .resources-heading,
+  .penalties-heading {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .rewards-list,
+  .video-list,
+  .penalties-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px auto;
+    max-width: 600px;
+  }
+  
+  .rewards-list li,
+  .video-list li,
+  .penalties-list li {
+    font-size: 18px;
+    margin-bottom: 10px; /* Adds spacing between list items */
+    line-height: 1.6;
+  }
+  
+  .video-list li a {
+    text-decoration: none;
+    color: #0056b3;
+    font-weight: bold;
+  }
+  
+  .video-list li a:hover {
+    text-decoration: underline;
+  }
+  .profile-container {
+    background-color: #d9f1ff; /* Light blue background */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .profile-card {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%; /* Makes it round */
+    border: 4px solid #0056b3;
+    margin-bottom: 15px;
+  }
+  
+  .profile-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .profile-email {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .password-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .change-password-btn, 
+  .logout-btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .change-password-btn {
+    background-color: #0056b3;
+    color: white;
+  }
+  
+  .logout-btn {
+    background-color: #d9534f;
+    color: white;
+  }
+  
+  .change-password-btn:hover {
+    background-color: #003f7f;
+  }
+  
+  .logout-btn:hover {
+    background-color: #c9302c;
+  }
+
+
+
+
+  .studyplan-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  .studyplan-list {
+    list-style: none;
+    padding: 0;
+    width: 80%;
+    margin: auto;
+  }
+  
+  .studyplan-item {
+    background: #f0f8ff;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px 0;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tips-list {
+    padding-left: 20px;
+  }
+  
+  .tips-list li {
+    margin: 5px 0;
+  }
+
+  .studyplan-container {
+    background-color: #d9f1ff; /* Light Blue Background */
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  .studyplan-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  .studyplan-list {
+    list-style: none;
+    padding: 0;
+    width: 80%;
+    margin: auto;
+  }
+  
+  .studyplan-item {
+    background: #f0f8ff;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 15px 0;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tips-list {
+    padding-left: 20px;
+  }
+  
+  .tips-list li {
+    margin: 8px 0;
+  }
+
+
+  /* Counseling Page Container */
+.counseling-container {
+    background-color: #e0f7fa; /* Light blue background */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  /* Title */
+  .counseling-title {
+    font-size: 24px;
+    color: #007bff;
+  }
+  
+  /* Dropdown */
+  .dropdown {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #007bff;
+  }
+  
+  /* Get Motivation Button */
+  .motivation-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .motivation-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Motivation List */
+  .motivation-list {
+    margin-top: 20px;
+    text-align: left;
+    padding: 10px;
+  }
+  
+  .motivation-list h3 {
+    color: #ff9800;
+  }
+  
+  .motivation-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .motivation-list li {
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Navbar Container */
+.navbar {
+    display: flex;
+    justify-content: space-between;  /* Space between title and links */
+    align-items: center;
+    background-color: #007bff;
+    padding: 10px 20px;
+    color: white;
+  }
+  
+  /* Navigation Links in a Row */
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;  /* Adds space between items */
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Navbar Items */
+  .navbar-links li {
+    display: inline;
+  }
+  
+  /* Navbar Links */
+  .navbar-links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+  
+  /* Hover Effect */
+  .navbar-links li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
