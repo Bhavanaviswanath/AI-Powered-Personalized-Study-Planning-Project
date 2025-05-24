@@ -75,7 +75,7 @@ npm install
 npm start
 
 
-## sample output pictures
+## Sample Output Pictures
 ![image](https://github.com/GudepuRakshitha/An-AI-Powered-Personalized-Study-Planner-System-with-Goal-Based-Learning-/blob/55fa70cc77a03328a63283eedd69e9242a8c03bf/studyplanner4.png)
 
 ![image](https://github.com/GudepuRakshitha/An-AI-Powered-Personalized-Study-Planner-System-with-Goal-Based-Learning-/blob/55fa70cc77a03328a63283eedd69e9242a8c03bf/studyplanner3.png)
@@ -107,4 +107,5 @@ Model: Q-Learning or Deep Q-Network (DQN)
 
 ## 👩‍💻 Author
 Natuva Bhavana
+
 📧 Email: natuvabhavana@gmail.com
