@@ -106,5 +106,5 @@ Model: Q-Learning or Deep Q-Network (DQN)
 
 
 ## 👩‍💻 Author
-Gudepu Rakshitha Reddy
-📧 Email: rakshithareddy1985@gmail.com
+Natuva Bhavana
+📧 Email: natuvabhavana@gmail.com
