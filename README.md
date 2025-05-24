@@ -76,13 +76,13 @@ npm start
 
 
 ## Sample Output Pictures
-![image](https://github.com/GudepuRakshitha/An-AI-Powered-Personalized-Study-Planner-System-with-Goal-Based-Learning-/blob/55fa70cc77a03328a63283eedd69e9242a8c03bf/studyplanner4.png)
+![Study Planner 1](https://raw.githubusercontent.com/Bhavanaviswanath/AI-Powered-Personalized-Study-Planning-Project/58de95d5befa0b76c3ce4fae5b9667c8df4013b0/studyplanner1.png)
 
-![image](https://github.com/GudepuRakshitha/An-AI-Powered-Personalized-Study-Planner-System-with-Goal-Based-Learning-/blob/55fa70cc77a03328a63283eedd69e9242a8c03bf/studyplanner3.png)
+![Study Planner 2](https://raw.githubusercontent.com/Bhavanaviswanath/AI-Powered-Personalized-Study-Planning-Project/58de95d5befa0b76c3ce4fae5b9667c8df4013b0/studyplanner2.png)
 
-![image](https://github.com/GudepuRakshitha/An-AI-Powered-Personalized-Study-Planner-System-with-Goal-Based-Learning-/blob/55fa70cc77a03328a63283eedd69e9242a8c03bf/studyplanner2.png)
+![Study Planner 3](https://raw.githubusercontent.com/Bhavanaviswanath/AI-Powered-Personalized-Study-Planning-Project/58de95d5befa0b76c3ce4fae5b9667c8df4013b0/studyplanner3.png)
 
-![image](https://github.com/GudepuRakshitha/An-AI-Powered-Personalized-Study-Planner-System-with-Goal-Based-Learning-/blob/55fa70cc77a03328a63283eedd69e9242a8c03bf/studyplanner1.png)
+![Study Planner 4](https://raw.githubusercontent.com/Bhavanaviswanath/AI-Powered-Personalized-Study-Planning-Project/58de95d5befa0b76c3ce4fae5b9667c8df4013b0/studyplanner4.png)
 
 ## 📚 How It Works
 User login/registration
