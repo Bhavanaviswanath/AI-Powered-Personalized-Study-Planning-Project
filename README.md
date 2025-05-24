@@ -1,4 +1,4 @@
-# AI-Powered Personalized Study Planner System  
+# AI-Powered Personalized Study Planner System with Goal Based Learning
 A Full-Stack Goal-Oriented Learning Assistant for Students
 
 ## 📌 Project Overview
